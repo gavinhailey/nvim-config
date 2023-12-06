@@ -2,4 +2,12 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-return {}
+return {
+  {
+    url = "https://github.com/github/copilot.vim.git",
+  },
+  {
+    url = "https://github.com/google/vim-jsonnet.git",
+  }
+}
+
