@@ -1,12 +1,11 @@
 return {
   {
-    "nvim-treesitter/nvim-treesitter",
+    'nvim-treesitter/nvim-treesitter',
     opts = {
       ensure_installed = {
-        "hcl",
-        "terraform",
+        'hcl',
+        'terraform',
       },
     },
   },
 }
-
